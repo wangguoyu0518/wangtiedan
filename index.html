@@ -46,7 +46,7 @@
     </audio>
 
     <div class="container" onselectstart="return false;" unselectable="on" style="-moz-user-select:none;">
-        <div onclick="aaa()" class="music"></div>
+      <!--  <div onclick="aaa()" class="music"></div>-->
         <div class="body_left">
             <img src="images/biubiubiu.gif" alt="" ondragstart='return false;'>
         </div>
@@ -81,17 +81,17 @@
 </body>
 
 <script>
-    var music = document.getElementById('media')
+  //  var music = document.getElementById('media')
      function goPage() {
          window.location.href='demo.html';
      }
      function aaa(){
-         music.play();
+       //  music.play();
      }
-     music.onended = function () {
-         music.load();
-         music.play();
-     }
+   /*  music.onended = function () {
+       //  music.load();
+       //  music.play();
+     }*/
    //  aaa()
 
      //微信必须加入Weixin JSAPI的WeixinJSBridgeReady才能生效
